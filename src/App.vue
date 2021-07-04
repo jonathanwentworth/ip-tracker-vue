@@ -1,17 +1,19 @@
 <template>
+  
   <SearchComponent />
-  <DetailsComponent />
+  <MapComponent />
+
 </template>
 
 <script>
 import SearchComponent from '@/components/SearchComponent.vue'
-import DetailsComponent from '@/components/DetailsComponent.vue'
+import MapComponent from '@/components/MapComponent.vue'
 
 export default {
   name: 'App',
   components: {
     SearchComponent,
-    DetailsComponent
+    MapComponent
   }
 }
 </script>
